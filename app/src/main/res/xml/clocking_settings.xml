@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_clocking_settings_identification_title"
+        android:key="pref_clocking_settings_identification">
+        <com.salarium.bundy.settings.EmployeeIDClockingMethodPreference
+            android:id="@+id/pref_clocking_settings_identification_employee_id"
+            android:key="@string/pref_clocking_settings_identification_employee_id_id"
+            android:title="@string/pref_clocking_settings_identification_employee_id_title"
+            android:defaultValue="true" />
+        <!--
+        <com.salarium.bundy.settings.ClockingMethodPreference
+            android:id="@+id/pref_clocking_settings_identification_rfid"
+            android:key="@string/pref_clocking_settings_identification_rfid_id"
+            android:title="@string/pref_clocking_settings_identification_rfid_title"
+            android:defaultValue="false" />
+        <com.salarium.bundy.settings.ClockingMethodPreference
+            android:id="@+id/pref_clocking_settings_identification_qrcode"
+            android:key="@string/pref_clocking_settings_identification_qrcode_id"
+            android:title="@string/pref_clocking_settings_identification_qrcode_title"
+            android:defaultValue="false" />
+        -->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_clocking_settings_verification_title"
+        android:key="pref_clocking_settings_verification">
+        <com.salarium.bundy.settings.FingerprintClockingMethodPreference
+            android:id="@+id/pref_clocking_settings_verification_fingerprint"
+            android:key="@string/pref_clocking_settings_verification_fingerprint_id"
+            android:title="@string/pref_clocking_settings_verification_fingerprint_title"
+            android:defaultValue="true" />
+        <!--
+        <com.salarium.bundy.settings.ClockingMethodPreference
+            android:id="@+id/pref_clocking_settings_verification_photo_capture"
+            android:key="@string/pref_clocking_settings_verification_photo_capture_id"
+            android:title="@string/pref_clocking_settings_verification_photo_capture_title"
+            android:defaultValue="false" />
+        <com.salarium.bundy.settings.ClockingMethodPreference
+            android:id="@+id/pref_clocking_settings_verification_voice_recognition"
+            android:key="@string/pref_clocking_settings_verification_voice_recognition_id"
+            android:title="@string/pref_clocking_settings_verification_voice_recognition_title"
+            android:defaultValue="false" />
+        <com.salarium.bundy.settings.ClockingMethodPreference
+            android:id="@+id/pref_clocking_settings_verification_pin"
+            android:key="@string/pref_clocking_settings_verification_pin_id"
+            android:title="@string/pref_clocking_settings_verification_pin_code_title"
+            android:defaultValue="false" />
+        -->
+    </PreferenceCategory>
+</PreferenceScreen>

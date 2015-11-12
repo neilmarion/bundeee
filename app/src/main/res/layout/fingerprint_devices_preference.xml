@@ -1,0 +1,22 @@
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fingerprint_devices_radio_group"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:background="?android:attr/selectableItemBackground"
+>
+    <RadioButton
+        android:id="@+id/a370"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A370"
+     />
+
+    <RadioButton
+        android:id="@+id/hf7000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HF7000"
+    />
+</RadioGroup>

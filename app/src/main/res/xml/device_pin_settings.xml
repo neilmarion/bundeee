@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_device_pin_settings_title"
+        android:key="pref_device_settings">
+        <EditTextPreference
+            android:key="@string/pref_device_pin_id"
+            android:summary="@string/pref_device_pin_settings_summary"
+            android:title="@string/pref_device_pin_settings_title"
+            android:defaultValue="1234"
+            android:inputType="numberPassword" />
+    </PreferenceCategory>
+</PreferenceScreen>

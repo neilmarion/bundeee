@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        >
+
+            <IconTextView
+                android:text="{fa-pencil}"
+                style="@style/simple_number_input_heading"
+            />
+
+            <TextView
+                android:id="@+id/simple_number_input_message"
+                style="@style/simple_number_input_heading"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        >
+
+            <EditText
+                android:id="@+id/simple_number_input_edittext"
+                style="@style/simple_number_input_edittext"
+                android:singleLine="true"
+            />
+
+        </LinearLayout>
+
+        <View
+                 android:layout_width="fill_parent"
+                 android:layout_height="1dp"
+                 android:background="#c0c0c0"/>
+
+        <LinearLayout android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center" >
+
+            <Button
+                android:id="@+id/keypad_btn_seven"
+                android:text="@string/seven"
+                style="@style/default_button"
+            />
+
+            <Button
+                android:id="@+id/keypad_btn_eight"
+                android:text="@string/eight"
+                style="@style/default_button"
+            />
+
+            <Button
+                android:id="@+id/keypad_btn_nine"
+                android:text="@string/nine"
+                style="@style/default_button"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center" >
+
+            <Button
+                android:id="@+id/keypad_btn_four"
+                android:text="@string/four"
+                style="@style/default_button"
+            />
+
+            <Button
+                android:id="@+id/keypad_btn_five"
+                android:text="@string/five"
+                style="@style/default_button"
+            />
+
+            <Button
+                android:id="@+id/keypad_btn_six"
+                android:text="@string/six"
+                style="@style/default_button"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center" >
+
+            <Button
+                android:id="@+id/keypad_btn_one"
+                android:text="@string/one"
+                style="@style/default_button"
+            />
+
+            <Button
+                android:id="@+id/keypad_btn_two"
+                android:text="@string/two"
+                style="@style/default_button"
+            />
+
+            <Button
+                android:id="@+id/keypad_btn_three"
+                android:text="@string/three"
+                style="@style/default_button"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center" >
+
+            <IconButton
+                android:id="@+id/clear_btn"
+                android:text="{fa-undo}"
+                style="@style/default_button"
+            />
+
+
+            <Button
+                android:id="@+id/keypad_btn_zero"
+                android:text="@string/zero"
+                style="@style/default_button"
+            />
+
+            <IconButton
+                android:id="@+id/backspace_btn"
+                android:text="{fa-arrow-left}"
+                style="@style/default_button"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center">
+
+            <Button
+                android:id="@+id/simple_number_input_enter_btn"
+                android:text="@string/simple_number_input_enter_btn_text"
+                style="@style/action_button"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

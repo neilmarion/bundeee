@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.salarium.bundy.settings.DevicePINSettingsFragment"
+        android:title="@string/pref_device_security_title"
+        android:summary="@string/pref_device_security_summary">
+        <extra android:name="settings" android:value="device_pin" />
+    </header>
+    <header
+        android:fragment="com.salarium.bundy.settings.CompanySettingsFragment"
+        android:title="@string/pref_company_settings_title"
+        android:summary="@string/pref_company_settings_summary">
+        <extra android:name="settings" android:value="company_settings" />
+    </header>
+    <header
+        android:fragment="com.salarium.bundy.settings.ClockingSettingsFragment"
+        android:title="@string/pref_clocking_settings_title"
+        android:summary="@string/pref_clocking_settings_summary">
+        <extra android:name="settings" android:value="clocking_settings" />
+    </header>
+    <header
+        android:fragment="com.salarium.bundy.settings.SystemSettingsFragment"
+        android:title="@string/pref_system_settings_title"
+        android:summary="@string/pref_system_settings_summary">
+        <extra android:name="settings" android:value="system_settings" />
+    </header>
+</preference-headers>

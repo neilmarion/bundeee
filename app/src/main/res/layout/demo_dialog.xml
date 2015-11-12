@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:text="Everything's good so proceed."
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <LinearLayout android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center">
+
+        <Button
+            android:id="@+id/demo_dialog_enter_btn"
+            android:text="Proceed"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

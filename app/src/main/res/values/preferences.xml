@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- settings / user preferences -->
+
+    <string name="settings_title">Settings</string>
+    <string name="pref_device_pin_id">pref_device_pin</string>
+    <string name="pref_device_settings_title">Device Settings</string>
+    <string name="pref_device_security_title">Device Security</string>
+    <string name="pref_device_security_summary">Access Security Measures</string>
+    <string name="pref_device_pin_settings_title">Device PIN</string>
+    <string name="pref_device_pin_settings_summary">PIN Code to open device admin preferences</string>
+
+
+    <string name="pref_account_token_settings_id">pref_account_token</string>
+    <string name="pref_chosen_company_id_settings_id">pref_chosen_company_id</string>
+    <string name="pref_chosen_company_name_settings_id">pref_chosen_company_name</string>
+    <string name="pref_account_companies_id">pref_account_companies</string>
+    <string name="pref_account_email_id">pref_account_email</string>
+
+    <string name="pref_company_settings_title">Company</string>
+    <string name="pref_company_settings_summary">Choose a company to connect this device to</string>
+
+    <string name="pref_salarium_account_title">Salarium Account</string>
+    <string name="pref_salarium_account_summary">Setup Salarium admin account</string>
+
+    <string name="pref_clocking_settings_title">Clocking Settings</string>
+    <string name="pref_clocking_settings_summary">Employee clocking identification and verification methods</string>
+    <string name="pref_clocking_settings_identification_title">Identification</string>
+    <string name="pref_clocking_settings_identification_employee_id_title">Employee ID</string>
+    <string name="pref_clocking_settings_identification_rfid_title">RFID</string>
+    <string name="pref_clocking_settings_identification_qrcode_title">QR Code</string>
+
+    <string name="pref_clocking_settings_verification_title">Verification</string>
+    <string name="pref_clocking_settings_verification_fingerprint_title">Fingerprint</string>
+    <string name="pref_clocking_settings_verification_photo_capture_title">Photo Capture</string>
+    <string name="pref_clocking_settings_verification_voice_recognition_title">Voice Recognition</string>
+    <string name="pref_clocking_settings_verification_pin_code_title">PIN Code</string>
+
+    <string name="pref_clocking_settings_identification_employee_id_id">pref_clocking_settings_identification_employee_id</string>
+    <string name="pref_clocking_settings_identification_rfid_id">pref_clocking_settings_identification_rfid</string>
+    <string name="pref_clocking_settings_identification_qrcode_id">pref_clocking_settings_identification_qrcode</string>
+    <string name="pref_clocking_settings_verification_fingerprint_id">pref_clocking_settings_verification_fingerprint</string>
+    <string name="pref_clocking_settings_verification_photo_capture_id">pref_clocking_settings_verification_photo_capture</string>
+    <string name="pref_clocking_settings_verification_voice_recognition_id">pref_clocking_settings_verification_voice_recognition</string>
+    <string name="pref_clocking_settings_verification_pin_id">pref_clocking_settings_verification_pin</string>
+
+    <string name="pref_reset_salarium_account_settings_summary">Unlink this device to the Salarium account. This will cause Bundy clock unusable unless a Salarium account is setup.</string>
+    <string name="pref_reset_salarium_account_settings_warning">Are you sure? This action will unlink this device to the Salarium account. This will cause Bundy clock unusable unless a Salarium account is setup.</string>
+    <string name="pref_reset_salarium_account_settings_title">Reset Salarium account settings</string>
+
+    <string name="pref_system_settings_title">System Settings</string>
+    <string name="pref_system_settings_summary">Device System Settings</string>
+
+    <string name="pref_reboot_time_id">pref_reboot_time</string>
+    <string name="pref_reboot_time_title">Application Reboot</string>
+    <string name="pref_reboot_time_summary">Assign a time everyday when the SAL-Time Bundy app reboots to apply app updates automatically</string>
+
+    <string name="pref_is_force_rebooted_id">pref_is_force_rebooted</string>
+    <string name="pref_is_force_rebooted_title">Force-reboot application on close</string>
+    <string name="pref_is_force_rebooted_summary">SAL-Time Bundy app will reboot right after it was closed</string>
+
+    <string name="pref_clocking_settings_verification_fingerprint_device_id">pref_clocking_settings_verification_fingerprint_device</string>
+    <string name="pref_clocking_settings_verification_fingerprint_device_a370_id">a370</string>
+    <string name="pref_clocking_settings_verification_fingerprint_device_cr30_id">cr30</string>
+    <string name="pref_clocking_settings_verification_fingerprint_device_hf7000_id">hf7000</string>
+
+
+    <string name="pref_clocking_settings_verification_fingerprint_device_mac_address_id">pref_clocking_settings_verification_fingerprint_device_mac_address</string>
+</resources>

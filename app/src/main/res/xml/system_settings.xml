@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_reboot_time_title">
+
+        <com.salarium.bundy.settings.SystemRebootTimePreference
+            android:id="@+id/pref_reboot_time"
+            android:key="@string/pref_reboot_time_id"
+            android:title="@string/pref_reboot_time_title"
+            android:summary="@string/pref_reboot_time_summary"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

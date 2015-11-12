@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="?android:attr/selectableItemBackground" >
+
+    <LinearLayout
+        android:id="@+id/message_board_header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="3">
+
+        <IconTextView
+            android:id="@+id/message_board_header_icon"
+            style="@style/big_textview"
+        />
+
+        <TextView
+            android:id="@+id/message_board_header_text"
+            style="@style/small_grey_darkest_textview"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/message_board_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="6">
+
+        <TextView
+            android:id="@+id/message_board_content_text"
+            style="@style/medium_grey_darkest_textview"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/message_board_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clock_size">128</string>
+    <string name="clock_size_v2">64</string>
+    <string name="date_size_v2">16</string>
+
+    <string name="app_name">Bundy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="settings">Settings</string>
+    <string name="enrollment">Enrollment</string>
+    <string name="simple_number_input_message">
+        1234
+    </string>
+    <string name="simple_number_input_enter_btn_text">
+        enter
+    </string>
+
+    <!-- General -->
+
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="error">error</string>
+    <string name="paired_devices">Paired Devices</string>
+
+    <!-- API -->
+
+    <string name="success">success</string>
+
+    <!-- Settings -->
+
+    <string name="salarium_account">Salarium Account</string>
+    <string name="company_settings_title">Company</string>
+    <string name="company_settings_summary">Choose a company</string>
+
+    <!-- Enrollment -->
+
+    <string name="enrollment_title">Enrollment</string>
+
+    <!-- Error messages -->
+
+    <string name="incomplete_settings_message">
+        Please complete the device settings before using the device for clocking in.
+    </string>
+
+    <!-- Simple number input -->
+
+    <string name="clear_btn"> C </string>
+    <string name="backspace_btn"> B </string>
+    <string name="one"> 1 </string>
+    <string name="two"> 2 </string>
+    <string name="three"> 3 </string>
+    <string name="four"> 4 </string>
+    <string name="five"> 5 </string>
+    <string name="six"> 6 </string>
+    <string name="seven"> 7 </string>
+    <string name="eight"> 8 </string>
+    <string name="nine"> 9 </string>
+    <string name="zero"> 0 </string>
+
+    <string name="a370">a370</string>
+    <string name="hf7000">hf7000</string>
+</resources>

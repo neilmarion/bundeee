@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_company_settings_title">
+        <com.salarium.bundy.settings.EmailAndPasswordSettingsPreference
+            android:key="pref_salarium_account_settings"
+            android:summary="@string/pref_salarium_account_summary"
+            android:title="@string/pref_salarium_account_title" />
+        <com.salarium.bundy.settings.CompanySettingsPreference
+            android:key="pref_company_settings"
+            android:summary="@string/pref_company_settings_summary"
+            android:title="@string/pref_company_settings_title"
+            android:defaultValue="" />
+        <com.salarium.bundy.settings.ResetSalariumAccountSettingsPreference
+            android:key="pref_reset_salarium_account_settings"
+            android:summary="@string/pref_reset_salarium_account_settings_summary"
+            android:title="@string/pref_reset_salarium_account_settings_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

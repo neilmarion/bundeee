@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="custom_theme_darker">#176638</color>
+    <color name="custom_theme_dark">#208F4F</color>
+    <color name="custom_theme_primary">#2ecc71</color>
+    <color name="custom_theme_light">#ffffff</color>
+
+    <integer-array name="button_green_theme">
+        <item>@color/custom_theme_darker</item> <!-- really much darker color of main color -->
+        <item>@color/custom_theme_dark</item> <!-- a bit darker color of your main color -->
+        <item>@color/custom_theme_primary</item> <!-- main color of your theme -->
+        <item>@color/custom_theme_light</item> <!-- really much lighter color of main color -->
+    </integer-array>
+
+    <color name="white_theme_darker">#ecf0f1</color>
+    <color name="white_theme_dark"> #F0F3F3</color>
+    <color name="white_theme_primary">#ffffff</color>
+    <color name="white_theme_light">#000000</color>
+
+    <color name="white">#ffffff</color>
+
+
+    <color name="grey_lightest">#F2F2F2</color>
+    <color name="grey_lighter">#D9DADA</color>
+    <color name="grey_light">#B3B5B5</color>
+    <color name="grey">#8C9090</color>
+    <color name="grey_darker"> #666B6B</color>
+    <color name="grey_darkest">#404646</color>
+
+    <integer-array name="button_white_theme">
+        <item>@color/white_theme_darker</item> <!-- really much darker color of main color -->
+        <item>@color/white_theme_dark</item> <!-- a bit darker color of your main color -->
+        <item>@color/white_theme_primary</item> <!-- main color of your theme -->
+        <item>@color/white_theme_light</item> <!-- really much lighter color of main color -->
+    </integer-array>
+
+    <color name="flat_green_lighter">#ABEBC6</color>
+    <color name="flat_green">#2ecc71</color>
+    <color name="flat_dark_green">#27ae60</color>
+
+    <color name="flat_red">#e74c3c</color>
+    <color name="flat_dark_red">#c0392b</color>
+
+    <color name="flat_blue">#3498db</color>
+
+    <color name="flat_orange">#f39c12</color>
+</resources>
